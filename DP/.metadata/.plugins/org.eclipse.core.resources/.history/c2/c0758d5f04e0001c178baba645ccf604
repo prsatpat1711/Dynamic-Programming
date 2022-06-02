@@ -1,0 +1,17 @@
+package codes;
+
+public class AppsForPractice {
+
+	public static void main(String[] args) {
+		System.out.println("Choose the code you want to try out!");
+		int a = 0;
+		switch(a) {
+		case 1:
+			int W = 50;
+			int wt[] = {60,100,120};
+			int val[] = {10,20,30};
+			knapSack(W, wt, val, val.length);
+			}
+	}
+
+}

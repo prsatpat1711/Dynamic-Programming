@@ -1,0 +1,14 @@
+package codes;
+
+public class MinimumOperations {
+	public static int minimumOperations(int a) {
+		if(a <= 3) {
+			System.out.println(a);
+		}
+		if(a%2==0) {
+			return minimumOperations(a/2)+1;
+		}else {
+			return minimumOperations(a/2)+2;
+		}
+	}
+}
